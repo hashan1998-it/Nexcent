@@ -14,9 +14,9 @@ function Navbar() {
 
 
     return (
-        <div className="h-16 px-4 w-full fixed shadow-sm max-w-7xl mx-auto z-10 left-1/2 transform -translate-x-1/2 flex items-center justify-between bg-white">
+        <div className="h-16 px-4 w-full fixed shadow-sm max-w-7xl mx-auto z-10 left-1/2 transform -translate-x-1/2 flex items-center justify-between bg-white dark:bg-white">
             {/* Logo */}
-            <h1 className="text-2xl font-semibold text-gray-800 sm:text-3xl sm:text texttext-3xl">Nexcent</h1>
+            <h1 className="text-2xl font-semibold text-gray-800 dark:text-gray-800 sm:text-3xl sm:text texttext-3xl">Nexcent</h1>
 
             {/* Mobile menu */}
             <button className="block p-4 md:hidden" onClick={handleMobileMenuClick}>
@@ -31,7 +31,7 @@ function Navbar() {
                         navLinks.map(({ id, name }) => {
                             if (id === "register") {
                                 {/* Register Button */ }
-                                return (<button key={id} className="items-center hidden px-4 py-2 font-semibold text-white bg-green-500 md:flex rounded-lg">{name}</button>);
+                                return (<button key={id} className="items-center hidden px-4 py-2 font-semibold text-white bg-green-500 dark:bg-green-500 md:flex rounded-lg">{name}</button>);
                             }
                             
                             else if (id === "login") {
