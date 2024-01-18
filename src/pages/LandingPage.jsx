@@ -4,7 +4,7 @@ import Sidebar from "../components/Sidebar"
 
 function LandingPage() {
     return (
-        <div className="h-svh">
+        <div className="h-svh bg-green-50">
             <Navbar />
             <Sidebar />
             <Hero/>

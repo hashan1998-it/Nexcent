@@ -14,7 +14,7 @@ function Navbar() {
 
 
     return (
-        <div className="h-16 px-4 w-full fixed shadow-sm max-w-7xl mx-auto z-10 left-1/2 transform -translate-x-1/2 flex items-center justify-between">
+        <div className="h-16 px-4 w-full fixed shadow-sm max-w-7xl mx-auto z-10 left-1/2 transform -translate-x-1/2 flex items-center justify-between bg-white">
             {/* Logo */}
             <h1 className="text-2xl font-semibold text-gray-800 sm:text-3xl sm:text texttext-3xl">Nexcent</h1>
 
